@@ -42,6 +42,10 @@
       "relation": "manyToMany",
       "target": "api::category.category",
       "inversedBy": "products"
+    },
+    "availability": {
+      "type": "biginteger",
+      "required": true
     }
   }
 }
